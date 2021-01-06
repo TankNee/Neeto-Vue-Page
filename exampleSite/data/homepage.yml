@@ -1,12 +1,12 @@
 ####################### Banner #########################
 banner:
-  title : "Let us solve your critical website <br> development challenges"
+  title : "Yet Another Wiz Note Vlient"
   image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  content : "Which was built with Quasar ui framework and was based on Electron"
   button:
     enable : true
-    label : "Contact With Us"
-    link : "contact"
+    label : "Get Neeto-Vue Now!"
+    link : "https://github.com/TankNee/Neeto-Vue/releases"
 
 ##################### Feature ##########################
 feature:
@@ -16,32 +16,15 @@ feature:
     # feature item loop
     - name : "Clean Code"
       icon : "ti-pulse"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Object Oriented"
+      content : "Using Eslint and Prettier plugins to lint our code."
+
+    - name : "Open Source"
       icon : "ti-package"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "24h Service"
-      icon : "ti-alarm-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Value For Money"
-      icon : "ti-credit-card"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Faster Response"
-      icon : "ti-headphone-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Cloud Support"
-      icon : "ti-cloud-up"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Neeto-Vue will make its source code open forever on Github."
+
+    - name : "Self Host"
+      icon : "ti-cloud"
+      content : "Base on Wiz Self Host Server that you can deploy note server on your machine."
       
 
 
@@ -50,51 +33,52 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "It is the most advanced digital marketing and it company."
+    - title : "It may be the most productive Wiz Note Client that you ever meet."
       images:
-      - "images/service-1.png"
-      - "images/service-2.png"
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      - "images/screenshot-4.png"
+      - "images/screenshot-3.png"
+      - "images/screenshot-2.png"
+      content : "Support any functions you can do in the official client."
       button:
         enable : true
-        label : "Check it out"
-        link : "#"
+        label : "Get it Now"
+        link : "https://github.com/TankNee/Neeto-Vue"
         
     # service item loop
-    - title : "It is a privately owned Information and cyber security company"
+    - title : "Two elegant and comfortable themes."
       images:
-      - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      - "images/screenshot-1.png"
+      - "images/screenshot-1-dark.png"
+      content : "Light mode, as well as dark mode, will perfectly fit your different needs at different times."
       button:
         enable : true
-        label : "Check it out"
-        link : "#"
+        label : "Get it Now"
+        link : "https://github.com/TankNee/Neeto-Vue"
         
     # service item loop
-    - title : "It’s a team of experienced and skilled people with distributions"
+    - title : "Productive locking mode."
       images:
-      - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      - "images/screenshot-lock-mode.png"
+      content : "You could lock the note edit area if you are just going to review the note content instead of update it."
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "https://github.com/TankNee/Neeto-Vue"
         
     # service item loop
-    - title : "A company standing different from others"
+    - title : "Efficient Wide Screen Mode"
       images:
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      - "images/screenshot-wide-mode.png"
+      content : "Choose a screen mode you like in the application header bar, Wide or narrow."
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "https://github.com/TankNee/Neeto-Vue"
         
 ################### Screenshot ########################
 screenshot:
   enable : true
-  title : "Experience the best <br> workflow with us"
+  title : "Develop the best <br> application with us!"
   image : "images/screenshot.svg"
 
   
@@ -102,10 +86,10 @@ screenshot:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to get started?"
+  title : "Ready to contribute to Neeto-Vue?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "However, Neeto-Vue is not a giant project comparing to the other note editor, but I'm eager to welcome anyone who tend to contribute to Neeto-Vue and share your excellent ideas with me."
   button:
     enable : true
-    label : "Contact Us"
-    link : "contact"
+    label : "Join Us!"
+    link : "https://github.com/TankNee/Neeto-Vue"
