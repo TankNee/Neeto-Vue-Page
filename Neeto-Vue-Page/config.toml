@@ -1,0 +1,82 @@
+######################## default configuration ####################
+baseURL = "http://examplesite.org/"
+title = "Bigspring Hugo"
+theme = "bigspring"
+languageName = "En"
+languageCode = "en-us"
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Blog"
+URL = "https://www.tanknee.cn"
+weight = 1
+
+[[menu.main]]
+name = "Download"
+URL = "download"
+weight = 2
+
+[[menu.main]]
+name = "GitHub"
+URL = "https://github.com/TankNee/Neeto-Vue"
+weight = 3
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_width = "200px"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+# Navigation buttons
+[params.navigation_button]
+enable = true
+label = "Get Started"
+link = "download"
+
+  
+############################# social site ########################
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/TankNee/Neeto-Vue"
+
+[[params.social]]
+title = "support"
+icon = "ti-support" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/TankNee/Neeto-Vue/issues"

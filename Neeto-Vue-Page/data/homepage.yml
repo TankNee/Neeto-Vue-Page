@@ -1,0 +1,95 @@
+####################### Banner #########################
+banner:
+  title : "Yet Another Wiz Note Vlient"
+  image : "images/banner-art.svg"
+  content : "Which was built with Quasar ui framework and was based on Electron"
+  button:
+    enable : true
+    label : "Get Neeto-Vue Now!"
+    link : "https://github.com/TankNee/Neeto-Vue/releases"
+
+##################### Feature ##########################
+feature:
+  enable : true
+  title : "Something You Need To Know"
+  feature_item:
+    # feature item loop
+    - name : "Clean Code"
+      icon : "ti-pulse"
+      content : "Using Eslint and Prettier plugins to lint our code."
+
+    - name : "Open Source"
+      icon : "ti-package"
+      content : "Neeto-Vue will make its source code open forever on Github."
+
+    - name : "Self Host"
+      icon : "ti-cloud"
+      content : "Base on Wiz Self Host Server that you can deploy note server on your machine."
+      
+
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "It may be the most productive Wiz Note Client that you ever meet."
+      images:
+      - "images/screenshot-4.png"
+      - "images/screenshot-3.png"
+      - "images/screenshot-2.png"
+      content : "Support any functions you can do in the official client."
+      button:
+        enable : true
+        label : "Get it Now"
+        link : "https://github.com/TankNee/Neeto-Vue"
+        
+    # service item loop
+    - title : "Two elegant and comfortable themes."
+      images:
+      - "images/screenshot-1.png"
+      - "images/screenshot-1-dark.png"
+      content : "Light mode, as well as dark mode, will perfectly fit your different needs at different times."
+      button:
+        enable : true
+        label : "Get it Now"
+        link : "https://github.com/TankNee/Neeto-Vue"
+        
+    # service item loop
+    - title : "Productive locking mode."
+      images:
+      - "images/screenshot-lock-mode.png"
+      content : "You could lock the note edit area if you are just going to review the note content instead of update it."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "https://github.com/TankNee/Neeto-Vue"
+        
+    # service item loop
+    - title : "Efficient Wide Screen Mode"
+      images:
+      - "images/screenshot-wide-mode.png"
+      content : "Choose a screen mode you like in the application header bar, Wide or narrow."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "https://github.com/TankNee/Neeto-Vue"
+        
+################### Screenshot ########################
+screenshot:
+  enable : true
+  title : "Develop the best <br> application with us!"
+  image : "images/screenshot.svg"
+
+  
+
+##################### Call to action #####################
+call_to_action:
+  enable : true
+  title : "Ready to contribute to Neeto-Vue?"
+  image : "images/cta.svg"
+  content : "However, Neeto-Vue is not a giant project comparing to the other note editor, but I'm eager to welcome anyone who tend to contribute to Neeto-Vue and share your excellent ideas with me."
+  button:
+    enable : true
+    label : "Join Us!"
+    link : "https://github.com/TankNee/Neeto-Vue"
