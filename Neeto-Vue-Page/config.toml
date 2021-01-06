@@ -53,14 +53,16 @@ name = "GitHub"
 URL = "https://github.com/TankNee/Neeto-Vue"
 weight = 3
 
+[[menu.footer_middle]]
+name = "浙ICP备19040955号"
+URL = "http://beian.miit.gov.cn/"
+
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
 logo_width = "200px"
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# contact form action
+description = "Neeto-Vue Official Page"
+author = "TankNee"
 contact_form_action = "#" # contact form works with https://formspree.io
 
 # Navigation buttons
