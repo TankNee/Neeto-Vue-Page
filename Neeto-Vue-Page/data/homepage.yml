@@ -1,6 +1,6 @@
 ####################### Banner #########################
 banner:
-  title : "Yet Another Wiz Note Vlient"
+  title : "Yet Another Wiz Note Client"
   image : "images/banner-art.svg"
   content : "Which was built with Quasar ui framework and was based on Electron"
   button:
