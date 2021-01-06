@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.tanknee.cn/Neeto-Vue-Page"
+baseURL = "https://cdn.jsdelivr.net/gh/TankNee/Neeto-Vue-Page/docs"
 title = "Neeto-Vue"
 theme = "bigspring"
 languageName = "En"
